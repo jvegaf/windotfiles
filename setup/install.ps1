@@ -1,11 +1,11 @@
-$account = "jayharris"
+$account = "aenichols"
 $repo    = "dotfiles-windows"
 $branch  = "master"
 
-$dotfilesTempDir = Join-Path $env:TEMP "dotfiles"
+$dotfilesTempDir = Join-Path $env:LOCALAPPDATA ".dotfiles"
 if (![System.IO.Directory]::Exists($dotfilesTempDir)) {[System.IO.Directory]::CreateDirectory($dotfilesTempDir)}
 $sourceFile = Join-Path $dotfilesTempDir "dotfiles.zip"
-$dotfilesInstallDir = Join-Path $dotfilesTempDir "$repo-$branch"
+$dotfilesInstallDir = Join-Path $dotfilesTempDir
 
 
 function Download-File {
