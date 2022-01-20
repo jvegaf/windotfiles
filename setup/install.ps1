@@ -1,5 +1,5 @@
-$account = "aenichols"
-$repo    = "dotfiles-windows"
+$account = "jvegaf"
+$repo    = "windotfiles"
 $branch  = "master"
 
 $dotfilesTempDir = Join-Path $env:LOCALAPPDATA ".dotfiles"
