@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ReactiveUI - Command</Title>
+			<Shortcut>ruicommand</Shortcut>
+			<Description>Code snippet for a ReactiveUI Command</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>TParam</ID>
+					<ToolTip>Type of parameter</ToolTip>
+					<Default>Unit</Default>					
+				</Literal>
+				<Literal>
+					<ID>TResult</ID>
+					<ToolTip>Type of result</ToolTip>
+					<Default>Unit</Default>					
+				</Literal>
+				<Literal>
+					<ID>command</ID>
+					<ToolTip>Command name</ToolTip>
+					<Default>DoSomething</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.Reactive</Namespace>
+				</Import>
+				<Import>
+					<Namespace>ReactiveUI</Namespace>
+				</Import>
+			</Imports>
+			<Code Language="csharp">
+				<![CDATA[public ReactiveCommand<$TParam$, $TResult$> $command$ { get; }$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

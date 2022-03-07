@@ -1,0 +1,185 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2022-02-24T22:56:51.895-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "AgileBits.1Password"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
+				},
+				{
+					"PackageIdentifier" : "Audacity.Audacity"
+				},
+				{
+					"PackageIdentifier" : "Lexikos.AutoHotkey"
+				},
+				{
+					"PackageIdentifier" : "dbeaver.dbeaver"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Figma.Figma"
+				},
+				{
+					"PackageIdentifier" : "Figma.fonthelper"
+				},
+				{
+					"PackageIdentifier" : "GIMP.GIMP"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Community"
+				},
+				{
+					"PackageIdentifier" : "KiCad.KiCad"
+				},
+				{
+					"PackageIdentifier" : "Foundry376.Mailspring"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Mp3tag.Mp3tag"
+				},
+				{
+					"PackageIdentifier" : "NSIS.NSIS"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.PyCharm.Community"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Ultimaker.Cura"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "Wox.Wox"
+				},
+				{
+					"PackageIdentifier" : "Balena.Etcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2019.BuildTools"
+				},
+				{
+					"PackageIdentifier" : "qBittorrent.qBittorrent"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x64"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Inkscape.Inkscape"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsSDK"
+				},
+				{
+					"PackageIdentifier" : "Oracle.VirtualBox"
+				},
+				{
+					"PackageIdentifier" : "OpenShot.OpenShot"
+				},
+				{
+					"PackageIdentifier" : "Yarn.Yarn"
+				},
+				{
+					"PackageIdentifier" : "Kitware.CMake"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.3-x64"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "MiXXX.MiXXX"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "Gluon.SceneBuilder"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2010Redist-x86"
+				},
+				{
+					"PackageIdentifier" : "Iterate.Cyberduck"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.dotnetRuntime.5-x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VC++2013Redist-x64"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://winget.azureedge.net/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "9N6SVWS3RX71" /* ubuntu */
+				},
+				{
+					"PackageIdentifier" : "9NZTWSQNTD0S"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion" : "1.2.3411-preview"
+}
